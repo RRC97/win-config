@@ -1,0 +1,29 @@
+[2m2026-04-19T18:40:15.845528Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Platform error: Another instance of the application is already running.
+[2m2026-04-19T18:50:25.038705Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Platform error: Another instance of the application is already running.
+[2m2026-04-19T22:22:25.845696Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[32].commands: unexpected argument found
+ at line 298 column 15
+[2m2026-05-06T00:43:07.735590Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m duplicate field `window_rules`
+[2m2026-05-06T00:43:25.573274Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m duplicate field `window_rules`
+[2m2026-05-06T00:43:27.281421Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1]: missing field `commands` at line 161 column 5
+[2m2026-05-06T00:45:06.925412Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1]: missing field `commands` at line 161 column 5
+[2m2026-05-06T00:45:21.650588Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unrecognized subcommand
+ at line 161 column 15
+[2m2026-05-06T00:45:23.662649Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unrecognized subcommand
+ at line 161 column 15
+[2m2026-05-06T00:46:06.044771Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unrecognized subcommand
+ at line 161 column 15
+[2m2026-05-06T00:46:08.847845Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unrecognized subcommand
+ at line 161 column 15
+[2m2026-05-06T00:51:32.960479Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1]: missing field `commands` at line 161 column 5
+[2m2026-05-06T00:51:36.953905Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1]: missing field `commands` at line 161 column 5
+[2m2026-05-06T00:51:48.589874Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unexpected argument found
+ at line 161 column 15
+[2m2026-05-06T00:51:58.828151Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unexpected argument found
+ at line 161 column 15
+[2m2026-05-06T22:26:56.609810Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general.startup_commands: unrecognized subcommand
+ at line 5 column 21
+[2m2026-05-06T22:26:59.578800Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general.startup_commands: unrecognized subcommand
+ at line 5 column 21
+[2m2026-05-06T22:28:08.648323Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Platform error: Another instance of the application is already running.
+[2m2026-05-06T22:28:26.489847Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general.startup_commands: unrecognized subcommand
+ at line 5 column 21

@@ -1,0 +1,187 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/amnweb/yasb/main/schema.json
+
+watch_stylesheet: true
+watch_config: true
+debug: false
+update_check: true
+
+bars:
+  primary-bar:
+    enabled: true
+    screens: ["*"]
+    class_name: "yasb-bar"
+    alignment:
+      position: "top"
+      center: false
+    window_flags:
+      always_on_top: false
+      windows_app_bar: true
+    dimensions:
+      width: "100%"
+      height: 34
+    padding:
+      top: 8
+      left: 16
+      bottom: 0
+      right: 16
+    widgets:
+      left:
+        - "glazewm_workspaces"
+        - "glazewm_tiling_direction"
+        - "active_window"
+      center:
+        - "clock"
+      right:
+        - "media"
+        - "volume"
+        - "cpu"
+        - "memory"
+        - "disk"
+        - "wifi"
+        - "systray"
+        - "power_menu"
+
+widgets:
+  glazewm_workspaces:
+    type: "glazewm.workspaces.GlazewmWorkspacesWidget"
+    options:
+      active_empty_label: ""
+      active_populated_label: ""
+      empty_label: ""
+      populated_label: ""
+      hide_empty_workspaces: false
+      monitor_exclusive: true
+  glazewm_tiling_direction:
+    type: "glazewm.tiling_direction.GlazewmTilingDirectionWidget"
+    options:
+      horizontal_label: "\udb81\udce1"
+      vertical_label: "\udb81\udce2"
+  active_window:
+    type: "yasb.active_window.ActiveWindowWidget"
+    options:
+      label: " {win[title]}"
+      max_length: 50
+
+  clock:
+    type: "yasb.clock.ClockWidget"
+    options:
+      label: "󰃭 {%d/%m/%Y   %H:%M:%S}"
+      calendar: 
+        blur: false
+
+  media:
+    type: "yasb.media.MediaWidget"
+    options:
+      label: "{title}"
+      label_alt: "{artist} - {title}"
+      max_field_size:
+        label: 16
+        label_alt: 24
+      show_thumbnail: true
+      controls_only: false
+      controls_left: true
+      controls_hide: true
+      hide_empty: true
+      thumbnail_alpha: 100
+      thumbnail_padding: 16
+      thumbnail_corner_radius: 0
+      thumbnail_edge_fade: true
+      icons:
+        prev_track: "\udb81\udcae"
+        next_track: "\udb81\udcad"
+        play: "\udb81\udc0a"
+        pause: "\udb80\udfe4"
+      media_menu:
+        blur: false
+        round_corners: false
+        alignment: "right"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
+        thumbnail_corner_radius: 4
+        thumbnail_size: 100
+        max_title_size: 80
+        max_artist_size: 20
+        show_source: true
+      label_shadow:
+        enabled: true
+        color: "#000000"
+        radius: 2
+        offset: [ 1, 1 ]
+      scrolling_label:
+        enabled: true
+        update_interval_ms: 40
+        style: "bounce"  # can be "left", "right", "bounce", "bounce-ease"
+        separator: " | "
+        label_padding: 1
+      callbacks:
+        on_left: "toggle_media_menu"
+        on_middle: "do_nothing"
+        on_right: "toggle_label"
+
+  open_meteo:
+    type: "yasb.open_meteo.OpenMeteoWidget"
+    options:
+      label: "<span>{icon}</span> {temp}"
+      update_interval: 600000
+      weather_card:
+        blur: false
+
+  cpu:
+    type: "yasb.cpu.CpuWidget"
+    options:
+      label: " {info[percent][total]}%"
+      update_interval: 2000
+
+  memory:
+    type: "yasb.memory.MemoryWidget"
+    options:
+      label: " {virtual_mem_percent}%"
+      update_interval: 2000
+
+  disk:
+    type: "yasb.disk.DiskWidget"
+    options:
+      label: "󰋊 {space[used][percent]}"
+
+  wifi:
+    type: "yasb.wifi.WifiWidget"
+    options:
+      hide_if_ethernet: true
+      label: "󰤨 {essid}"
+      label_alt: "󰤮"
+
+  volume:
+    type: "yasb.volume.VolumeWidget"
+    options:
+      label: "󰕾 {level}"
+      tooltip: false
+
+  systray:
+    type: "yasb.systray.SystrayWidget"
+    options:
+      class_name: "systray"
+      icon_size: 16
+      show_unpinned: false
+      show_unpinned_button: true
+
+  power_menu:
+    type: "yasb.power_menu.PowerMenuWidget"
+    options:
+      keybindings:
+        - keys: "alt+shift+e"
+          action: "toggle_power_menu"
+      label: "\uf011"
+      uptime: true
+      show_user: false
+      blur: false
+      blur_background: true
+      animation_duration: 120 # Milliseconds
+      button_row: 3 # Number of buttons in a row, min 1 max 6
+      buttons:
+        lock: ["\uea75", "Lock"]
+        signout: ["\udb80\udf43", "Logout"]
+        sleep: ["\uf28e", "Suspend"]
+        restart: ["\uead2", "Reboot"]
+        shutdown: ["\uf011", "Shutdown"]
+        cancel: ["\udb81\udf3a", "Cancel"]
