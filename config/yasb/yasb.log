@@ -6354,3 +6354,175 @@ Current thread's C stack trace (most recent call first):
 2026-05-12 19:13:36,335 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\mathe\.config\yasb
 2026-05-12 19:13:36,335 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
 2026-05-12 19:13:36,353 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-12 19:31:08,427 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-12 19:31:08,484 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-12 19:31:08,484 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-12 19:31:08,485 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-12 19:31:08,485 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-12 19:31:08,485 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-05-12 19:31:11,821 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-12 19:31:13,595 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-12 19:31:18,393 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-12 19:31:18,417 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-12 19:31:19,494 [INFO] [MainThread] [root/bar_manager.py:228]: Starting HotkeyListener...
+2026-05-12 19:31:19,494 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-12 19:31:19,495 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\mathe\.config\yasb
+2026-05-12 19:31:19,495 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-12 19:31:20,688 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-12 19:33:44,577 [INFO] [CLIPipeServer] [cli_server/cli_server.py:257]: CLI server received command: stop
+2026-05-12 19:33:44,577 [INFO] [CLIPipeServer] [root/controller.py:43]: Exiting Application from CLI...
+2026-05-12 19:33:44,691 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-12 19:33:44,757 [INFO] [MainThread] [root/bar_manager.py:110]: Stopping HotkeyListener...
+2026-05-12 19:33:44,758 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-05-12 19:33:47,232 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-12 19:33:47,232 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-12 19:33:47,233 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-12 19:33:47,256 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-12 19:33:47,289 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-12 19:33:47,571 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-12 19:33:47,590 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-12 19:33:47,786 [INFO] [MainThread] [root/bar_manager.py:228]: Starting HotkeyListener...
+2026-05-12 19:33:47,787 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-12 19:33:47,788 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\mathe\.config\yasb
+2026-05-12 19:33:47,788 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-12 19:33:47,804 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-12 23:54:31,345 [INFO] [MainThread] [root/controller.py:43]: Exiting Application...
+2026-05-12 23:54:31,458 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-12 23:54:31,607 [INFO] [MainThread] [root/bar_manager.py:110]: Stopping HotkeyListener...
+2026-05-12 23:54:31,611 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-05-13 22:25:47,105 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-13 22:25:47,107 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-13 22:25:47,107 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-13 22:25:47,300 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-13 22:25:47,543 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-13 22:25:48,537 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-13 22:25:48,568 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-13 22:25:48,905 [INFO] [MainThread] [root/bar_manager.py:228]: Starting HotkeyListener...
+2026-05-13 22:25:48,906 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-13 22:25:48,906 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\mathe\.config\yasb
+2026-05-13 22:25:48,907 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-13 22:25:49,147 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-14 00:20:19,125 [INFO] [MainThread] [root/controller.py:43]: Exiting Application...
+2026-05-14 00:20:19,241 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-14 00:20:19,291 [INFO] [MainThread] [root/bar_manager.py:110]: Stopping HotkeyListener...
+2026-05-14 00:20:19,292 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-05-14 22:21:28,187 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-14 22:21:28,188 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-14 22:21:28,189 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-14 22:21:28,380 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-14 22:21:28,616 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-14 22:21:29,697 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-14 22:21:29,729 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-14 22:21:30,076 [INFO] [MainThread] [root/bar_manager.py:228]: Starting HotkeyListener...
+2026-05-14 22:21:30,076 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-14 22:21:30,077 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\mathe\.config\yasb
+2026-05-14 22:21:30,078 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-14 22:21:30,314 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-14 23:10:13,156 [INFO] [MainThread] [root/controller.py:43]: Exiting Application...
+2026-05-14 23:10:13,264 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-14 23:10:13,307 [INFO] [MainThread] [root/bar_manager.py:110]: Stopping HotkeyListener...
+2026-05-14 23:10:13,309 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-05-16 10:50:57,834 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-16 10:50:57,835 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-16 10:50:57,836 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-16 10:50:58,039 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-16 10:50:58,290 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-16 10:50:59,388 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-16 10:50:59,423 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-16 10:50:59,777 [INFO] [MainThread] [root/bar_manager.py:228]: Starting HotkeyListener...
+2026-05-16 10:50:59,777 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-16 10:50:59,779 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\mathe\.config\yasb
+2026-05-16 10:50:59,779 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-16 10:51:00,019 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-16 10:52:56,374 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-16 11:13:50,962 [INFO] [MainThread] [root/controller.py:43]: Exiting Application...
+2026-05-16 11:13:51,077 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-16 11:13:51,184 [INFO] [MainThread] [root/bar_manager.py:110]: Stopping HotkeyListener...
+2026-05-16 11:13:51,185 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-05-16 16:01:27,990 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-16 16:01:27,992 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-16 16:01:27,992 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-16 16:01:28,190 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-16 16:01:28,435 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-16 16:01:29,375 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-16 16:01:29,407 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-16 16:01:29,760 [INFO] [MainThread] [root/bar_manager.py:228]: Starting HotkeyListener...
+2026-05-16 16:01:29,760 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-16 16:01:29,762 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\mathe\.config\yasb
+2026-05-16 16:01:29,762 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-16 16:01:30,012 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-16 16:01:59,353 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+Windows fatal exception: code 0x800706f7
+
+Thread 0x00003a38 [SystrayMonitor] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\utils.py", line 145 in start_message_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_monitor.py", line 99 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 65 in run
+
+Thread 0x00003a24 [Thread-6] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00003a20 [Thread-7] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00003a1c [SystemEventListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\event_listener.py", line 69 in run
+
+Thread 0x00003a18 [HotkeyListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\hotkeys.py", line 252 in run
+
+Thread 0x00003a08 [WiFiWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\wifi\wifi_managers.py", line 150 in run
+
+Thread 0x00003a04 [MemoryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\memory\memory_api.py", line 244 in run
+
+Thread 0x00003a00 [CpuWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\cpu\cpu_api.py", line 318 in run
+
+Thread 0x000039cc [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x000039b0 [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 288 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x000039ac [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 288 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Current thread 0x0000391c (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\active_window.py", line 337 in _update_window_title
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\active_window.py", line 237 in _on_focus_change_event
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 98 in main
+  File "main.py", line 188 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 27 in run
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\__startup__.py", line 137 in run
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+2026-05-17 01:57:21,529 [INFO] [MainThread] [root/controller.py:43]: Exiting Application...
+2026-05-17 01:57:21,645 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-17 01:57:21,730 [INFO] [MainThread] [root/bar_manager.py:110]: Stopping HotkeyListener...
+2026-05-17 01:57:21,731 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
